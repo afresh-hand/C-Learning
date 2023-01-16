@@ -37,6 +37,9 @@ cout之类的函数都是逐个处理字符直到遇到空字符
 cin.getline(arrayName, size)：回车认为输入结束，自动删除换行符
 cin.get(arrayName, size)： 保留换行符在序列中，需要连续使用两次来读掉换行符，有利于检查错误，若后一个get得到的时换行符则读取正确，否则读到的时无用的东西  
 
+- 输出：   
+cout.precision()设置精确度
+cout.set
 ### String类
 需要头文件 `<string>`，且string类包含在std命名空间下  
 可以将string 变量声明为简单变量 如`string a = "happy birthday"`
